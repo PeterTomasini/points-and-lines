@@ -4,6 +4,8 @@ public class Main {
     }
     public void start() {
         Point p1 = new Point(0, 0);
-        System.out.print(p1);
+        Point p2 = new Point(0,0);
+        p2.translate(3,4);
+        System.out.print(p1.distanceFromTo(p2.getX(), p2.getY()));
     }
 }
